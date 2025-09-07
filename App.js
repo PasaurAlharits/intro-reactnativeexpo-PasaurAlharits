@@ -4,7 +4,11 @@ import { View, Text, StyleSheet } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text testID="welcome-text">Hello, React Native!</Text>
+      <Text testID="welcome-text" style={styles.text}>
+        Hello, React Native!{'\n'}
+        Nama: Pasaur Alharits Luthfullah{'\n'}
+        NIM: D1041221083{'\n'}{'\n'}
+      </Text>
     </View>
   );
 }
